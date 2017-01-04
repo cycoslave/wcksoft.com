@@ -204,7 +204,7 @@
          position: new google.maps.LatLng(46.0436589,-64.6902605),
          map: map,
          icon: marker_img,
-         title: "Wicked Software"
+         title: "Prasanjit Singh"
      });
      var styledMapType = new google.maps.StyledMapType(styles, {
          name: 'Styled'

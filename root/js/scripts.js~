@@ -81,7 +81,7 @@
                      right: '10%'
                  }
              }),
-             TweenMax.from($('#photoshop'), .4, {
+             TweenMax.from($('#develop'), .4, {
                  delay: .45,
                  css: {
                      opacity: 0,
@@ -101,7 +101,14 @@
                      opacity: 0,
                      right: '35%'
                  }
-             })
+             }),
+             TweenMax.from($('#support'), .3, {
+                 delay: .55,
+                 css: {
+                     opacity: 0,
+                     right: '45%'
+                 }
+             })             
 
          ]),
          1, -200
@@ -204,7 +211,7 @@
          position: new google.maps.LatLng(46.0436589,-64.6902605),
          map: map,
          icon: marker_img,
-         title: "Prasanjit Singh"
+         title: "Wicked Software"
      });
      var styledMapType = new google.maps.StyledMapType(styles, {
          name: 'Styled'

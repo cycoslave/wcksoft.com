@@ -81,7 +81,7 @@
                      right: '10%'
                  }
              }),
-             TweenMax.from($('#photoshop'), .4, {
+             TweenMax.from($('#develop'), .4, {
                  delay: .45,
                  css: {
                      opacity: 0,
@@ -101,7 +101,14 @@
                      opacity: 0,
                      right: '35%'
                  }
-             })
+             }),
+             TweenMax.from($('#support'), .2, {
+                 delay: .65,
+                 css: {
+                     opacity: 0,
+                     right: '45%'
+                 }
+             })             
 
          ]),
          1, -200
